@@ -55,5 +55,5 @@ pwdlib==0.2.1
 argon2-cffi==23.1.0
 bcrypt==4.2.0
 
-httpcore2-2.0.0 
-httpx2-2.0.0
+httpcore==1.0.9
+httpx==0.28.1
