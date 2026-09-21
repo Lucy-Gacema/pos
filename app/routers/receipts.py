@@ -16,7 +16,7 @@ router = APIRouter(
 
 
 def get_srv(db: Session = Depends(get_db)):
-    return CategoryService(db)
+    return ReceiptService(db)
 
 
 @router.post("/", response_model=ReceiptResponse, status_code=status.HTTP_201_CREATED)
